@@ -14,11 +14,9 @@ define('APP_TITLE', 'Tiny File Manager');
 // Is independent from IP white- and blacklisting
 $use_auth = true;
 
-// Users: array('Username' => 'Password', 'Username2' => 'Password2', ...)
-// Generate secure password hash - https://tinyfilemanager.github.io/docs/pwd.html
 $auth_users = array(
     'admin' => '$2y$10$pRMCAmLcuatJGw57v/kHpehzzfq9IdStUFD4MgC1ERTsAQmKmXY2W', 
-    'namhoang0705' => '$2y$10$Fg6Dz8oH9fPoZ2jJan5tZuv6Z4Kp7avtQ9bDfrdRntXtPeiMAZyGO' 
+     
 );
 
 // Readonly users (username array)
