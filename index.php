@@ -2,11 +2,7 @@
 //Default Configuration
 $CONFIG = '{"lang":"vi","error_reporting":false,"show_hidden":true,"hide_Cols":false,"calc_folder":false}';
 
-/**
- * H3K | Tiny File Manager V2.3.8
- * CCP Programmers | ccpprogrammers@gmail.com
- * https://tinyfilemanager.github.io
- */
+
 
 //TFM version
 define('VERSION', '2.3.8');
@@ -22,7 +18,7 @@ $use_auth = true;
 // Generate secure password hash - https://tinyfilemanager.github.io/docs/pwd.html
 $auth_users = array(
     'admin' => '$2y$10$pRMCAmLcuatJGw57v/kHpehzzfq9IdStUFD4MgC1ERTsAQmKmXY2W', 
-    'namhoang0705' => '$2y$10$Fg6Dz8oH9fPoZ2jJan5tZuv6Z4Kp7avtQ9bDfrdRntXtPeiMAZyGO' //12345
+    'namhoang0705' => '$2y$10$Fg6Dz8oH9fPoZ2jJan5tZuv6Z4Kp7avtQ9bDfrdRntXtPeiMAZyGO' 
 );
 
 // Readonly users (username array)
