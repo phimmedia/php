@@ -6,7 +6,7 @@ $url = isset($_GET['url']) ? htmlspecialchars($_GET['url']) : null;
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>MediaFire</title>
+  <title>MFire</title>
 </head>
 <script type='text/javascript'>
 //<![CDATA[
