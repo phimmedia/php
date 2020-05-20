@@ -153,7 +153,7 @@ var message="NoRightClicking"; function defeatIE() {if (document.all) {(message)
 <body>
 
     <div class="fuckyou"></div>
-    <iframe src="https://mega.nz/embed#<?=$_GET['phimmedia']?>" scrolling="no" frameborder="0" width="100%" height="100%" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+    <iframe src="https://mega.nz/embed/<?=$_GET['phimmedia']?>" scrolling="no" frameborder="0" width="100%" height="100%" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
 
 </body>
 
