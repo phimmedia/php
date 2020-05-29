@@ -1,5 +1,4 @@
-<br />
-<center>
+<br /><center>
 <script type="application/javascript">
     var ad_idzone = "3875456",
     ad_width = "900",
@@ -7,10 +6,8 @@
     v_pos = "top",
     h_pos = "left";
 </script>
-    </center>
 <script type="application/javascript" src="https://a.exdynsrv.com/js.php?t=17&idzone=3875456"></script>
-<script type="application/javascript" src="https://a.exdynsrv.com/js.php?t=17&idzone=3875456"></script>
-<script type="application/javascript" src="https://a.exdynsrv.com/js.php?t=17&idzone=3875456"></script>
+</center>
 <br>
 <div dir="ltr" style="text-align: left;" trbidi="on">
 <script>
