@@ -1,6 +1,6 @@
 <?php
 	if (stristr($_SERVER['HTTP_REFERER'],"dalatplay.xyz") || 
-    stristr($_SERVER['HTTP_REFERER'],"your otherdomain add here")||
+    stristr($_SERVER['HTTP_REFERER'],"dalatplay.blogspot.com")||
     stristr($_SERVER['HTTP_REFERER'],"your otherdomain add here")|| 
     stristr($_SERVER['HTTP_REFERER'],"your otherdomain add here")) {   
 ;?>
