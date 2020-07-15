@@ -15,7 +15,7 @@ include("encode.php");
 
 ?>
 <meta charset="UTF-8">
-    <script src='../player8.js'></script>
+    <script src='../api/player8.js'></script>
     <div id='encrpyt'></div>
 
        <script>
