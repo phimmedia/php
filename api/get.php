@@ -1,5 +1,4 @@
-<?php 	if (stristr($_SERVER['HTTP_REFERER'],"//phimmedia102.blogspot.com/") || stristr($_SERVER['HTTP_REFERER'],"//phimmediaorg.herokuapp.com")|| stristr($_SERVER['HTTP_REFERER'],"your otherdomain add here")|| stristr($_SERVER['HTTP_REFERER'],"your otherdomain add here")) { ;
-?>
+
 <?php 
 function decode($string)
 {
@@ -38,4 +37,4 @@ jwplayer().resize($(window).width(),$(window).height())
 </script></body></html>
 
 
-<?php } else echo 'Opps sorry! for demo only, thanks. For more info contact us http://bundlecodes.com/'; ?>	
+
