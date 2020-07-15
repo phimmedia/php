@@ -15,7 +15,7 @@ include("encode.php");
 
 ?>
 <meta charset="UTF-8">
-    <script src='../vast15s/player8.js'></script>
+    <script src='../player8.js'></script>
     <div id='player'></div>
 
        <script>
@@ -41,7 +41,7 @@ player.setup({
             'qc1': {
                 'offset': 'pre',
                 'skipoffset': '10',
-                'tag': '../vast15s/ads.xml'
+                'tag': '//embedapi.herokuapp.com//vast15s/ads.xml'
             },
             'qc2': {
                 'offset': '70%',
