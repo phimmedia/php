@@ -1,4 +1,3 @@
-
 <?php 
 function decode($string)
 {
@@ -16,62 +15,22 @@ include("encode.php");
 
 ?>
 <!DOCTYPE html><html><head><title>Video DalatPlay.XyZ</title>
-<meta charset="UTF-8">
-    <script src='../player8.js'></script>
-    <div id='player'></div>
-
-       <script>
-      var player = jwplayer('player');
-player.setup({
-    width: '100%',
-    image: 'https://firebasestorage.googleapis.com/v0/b/phimmedia-ff307.appspot.com/o/dalat-play%2Fintro-dalatplay.xyz.png?alt=media&token=141eee00-77ed-4440-b73d-23fede2c945a',
-    skin: {
-        'name': 'seven'
-    },
-    primary: 'html5',
-    sources: [<?php echo "{file:'http://phimmediaorg.herokuapp.com/api/stream.php?api=".openssl($url)."',type:'video/mp4'}";?>],
-		
-    playbackRateControls: [0.25, 0.5, 1, 1.5, 2],
-    abouttext: 'Contact me : 09777.xxx.xxx',
-    aboutlink: 'https://google.com',
-    autostart: 'true',
-    advertising: {
-        client: 'vast',
-        admessage: 'Quảng cáo còn XX giây.',
-        skiptext: 'Bỏ qua quảng cáo',
-        skipmessage: 'Bỏ qua sau xxs',
-        schedule: {
-            'qc1': {
-                'offset': 'pre',
-                'skipoffset': '10',
-                'tag': '../vast15s/ads.xml'
-            },
-            'qc2': {
-                'offset': '70%',
-                'skipoffset': '15',
-                'tag': '/'
-            }, 
-        }
-    },
-    tracks: [{
-        file: '/',
-        label: 'Vietnamese',
-        kind: 'captions',
-        default: 'true'
-    }]
-});
-player.on('adImpression', function (e) {
-    jwplayer().setVolume(50)
-});
-player.on('adComplete', function (e) {
-    jwplayer().setVolume(90)
-});
-player.on('adSkipped', function (e) {
-    jwplayer().setVolume(90)
-});
-       </script>
-
-</body></html>
-
-
-
+<script src="//ssl.p.jwpcdn.com/player/v/7.11.2/jwplayer.js"></script>
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+<style>*{margin:0px;}html{overflow:hidden;}</style>
+</head><body><div id="encrpyt"></div><script>
+jwplayer.key = "XsWyeNQ1jdztTqhiD5MXEpz37wrnHdV05j7Ocg==";
+var encrpytplay = jwplayer("encrpyt");
+encrpytplay.setup({
+sources: [<?php echo "{file:'http://phimmediaorg.herokuapp.com/api/stream.php?api=".openssl($url)."',type:'video/mp4'}";?>],
+preload: 'auto',
+primary: 'html5',
+width: $(window).width(),
+height: $(window).height()
+})
+$(document).ready(function(){
+$(window).resize(function(){
+jwplayer().resize($(window).width(),$(window).height())
+})
+})
+</script></body></html>
