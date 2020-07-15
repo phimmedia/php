@@ -16,7 +16,7 @@ include("encode.php");
 
 ?>
 <!DOCTYPE html><html><head><title>Video DalatPlay.XyZ</title>
-<script src='../vast15s/player8.js'></script>
+<script src='../player8.js'></script>
 <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
 <style>*{margin:0px;}html{overflow:hidden;}</style>
 </head><body><div id="encrpyt"></div><script>
