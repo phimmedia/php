@@ -1,4 +1,4 @@
-<?php 	if (stristr($_SERVER['HTTP_REFERER'],"https://phimmedia102.blogspot.com/") || stristr($_SERVER['HTTP_REFERER'],"your otherdomain add here")|| stristr($_SERVER['HTTP_REFERER'],"your otherdomain add here")|| stristr($_SERVER['HTTP_REFERER'],"your otherdomain add here")) { ;
+<?php 	if (stristr($_SERVER['HTTP_REFERER'],"//phimmedia102.blogspot.com/") || stristr($_SERVER['HTTP_REFERER'],"//phimmediaorg.herokuapp.com")|| stristr($_SERVER['HTTP_REFERER'],"your otherdomain add here")|| stristr($_SERVER['HTTP_REFERER'],"your otherdomain add here")) { ;
 ?>
 <?php 
 function decode($string)
