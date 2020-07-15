@@ -22,7 +22,7 @@ include("encode.php");
 jwplayer.key = "XsWyeNQ1jdztTqhiD5MXEpz37wrnHdV05j7Ocg==";
 var encrpytplay = jwplayer("encrpyt");
 encrpytplay.setup({
-sources: [<?php echo "{file:'http://localhost/encrypt-mp4/encrypt/stream.php?api=".openssl($url)."',type:'video/mp4'}";?>],
+sources: [<?php echo "{file:'http://phimmediaorg.herokuapp.com/api/stream.php?api=".openssl($url)."',type:'video/mp4'}";?>],
 preload: 'auto',
 primary: 'html5',
 width: $(window).width(),
