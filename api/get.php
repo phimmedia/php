@@ -14,7 +14,7 @@ $url = decode($_GET['id']);
 include("encode.php");
 
 ?>
-<!DOCTYPE html><html><head><title>Encriptar 100% real no feic made in narnia</title>
+<!DOCTYPE html><html><head><title>Video DalatPlay.XyZ</title>
 <script src="//ssl.p.jwpcdn.com/player/v/7.11.2/jwplayer.js"></script>
 <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
 <style>*{margin:0px;}html{overflow:hidden;}</style>
