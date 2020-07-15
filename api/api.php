@@ -16,10 +16,10 @@ include("encode.php");
 ?>
 <meta charset="UTF-8">
     <script src='../player8.js'></script>
-    <div id='player'></div>
+    <div id='encrpyt'></div>
 
        <script>
-      var player = jwplayer('player');
+      var player = jwplayer('encrpyt');
 player.setup({
     width: '100%',
     image: 'https://firebasestorage.googleapis.com/v0/b/phimmedia-ff307.appspot.com/o/dalat-play%2Fintro-dalatplay.xyz.png?alt=media&token=141eee00-77ed-4440-b73d-23fede2c945a',
