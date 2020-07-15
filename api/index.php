@@ -40,7 +40,7 @@ return $output;
 					$urlEncode = base64($url);
 				}
 			?>					
-<label style="color: #ffc119;">Enlaces encriptado ilegible +10 like y a favoritos</label><br><textarea class="form-control" cols="100" rows="4"><?php echo "http://phimmediaorg.herokuapp.com/api/encriptar.php?id=".$urlEncode; ?></textarea><br><br>
+<label style="color: #ffc119;">Enlaces encriptado ilegible +10 like y a favoritos</label><br><textarea class="form-control" cols="100" rows="4"><?php echo "http://phimmediaorg.herokuapp.com/api/get.php?id=".$urlEncode; ?></textarea><br><br>
 </div>
 								</div>
 							</div>
