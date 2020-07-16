@@ -5,25 +5,15 @@
   <title> Text Slider </title>
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
 
-<div style='display:table-cell;vertical-align:middle'>
-This Page is password protected
-<button onclick='enterpass()'>Enter Password</button>
-</div>
-</div>
-
-
-<!-- paste this password form in your blogger post/page -->
-<script language="JavaScript">
-function enterpass(){
-var password = ' '
-password=prompt('This is password protected page, please enter password to continue.','');
-if (password == 'password') {
-document.getElementById('passward-protected').style.display='none';
-}else{
-alert('Wrong Password')
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+var password = 'password'
+password=prompt('Please enter the password to enter this post:','');
+if (password != 'password') {
+location.href='//phimmediaorg.herokuapp.com/api/apiconfig.php';
 }
-}
-</script>
+// End -->
+</SCRIPT>
 
 </head>
 <body>
