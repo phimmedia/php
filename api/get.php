@@ -1,3 +1,12 @@
+
+<?php 	if (stristr($_SERVER['HTTP_REFERER'],"dalatplay.xyz") || stristr($_SERVER['HTTP_REFERER'],"dalatplay.blogspot.com")||
+stristr($_SERVER['HTTP_REFERER']," ")||
+ stristr($_SERVER['HTTP_REFERER'],"embedapi.herokuapp.com/vast15s")|| stristr($_SERVER['HTTP_REFERER'],"your otherdomain add here")) { ;?>
+
+
+
+
+
 <?php 
 function decode($string)
 {
@@ -34,3 +43,8 @@ jwplayer().resize($(window).width(),$(window).height())
 })
 })
 </script></body></html>
+
+<?php
+}
+else echo 'Opps sorry!  For more info contact us ';
+?>	
