@@ -1,8 +1,8 @@
 <SCRIPT LANGUAGE="JavaScript">
 <!-- Begin
-var password = 'password'
+var password = 'p@ssw0rd'
 password=prompt('Please enter the password to enter this post:','');
-if (password != 'password') {
+if (password != 'p@ssw0rd') {
 location.href='../index.html';
 }
 // End -->
