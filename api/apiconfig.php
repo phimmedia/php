@@ -1,3 +1,14 @@
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+var password = 'password'
+password=prompt('Please enter the password to enter this post:','');
+if (password != 'password') {
+location.href='../index.html';
+}
+// End -->
+</SCRIPT>
+
+
 <?php
 function base64($string)
 {
