@@ -24,14 +24,9 @@ $output = openssl_decrypt(base64_decode($string), $encrypt_method, $key, 0, $iv)
 return $output;
 }
 $url = decode($_GET['id']);
-
-if(md5($_SESSION["check"])=="aaa"){
-      
+     
 include("encode.php");
 
-    }else{
-
-    }
 ?>
 <!DOCTYPE html><html><head><title>Video DalatPlay.XyZ</title>
 <script src="//ssl.p.jwpcdn.com/player/v/7.11.2/jwplayer.js"></script>
