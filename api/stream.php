@@ -1,4 +1,10 @@
+<?php
+if(md5($_SESSION["check"])=="aaa"){
+       echo $data;
+    }else{
 
+    }
+?>
 
 
 <?php 
