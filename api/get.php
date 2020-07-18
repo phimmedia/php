@@ -1,16 +1,4 @@
-<?php
 
-  
-
-if(md5($_SESSION["check"])=="aaa"){
-      
-$url = decode($_GET['id']);
-
-    }else{
-
-    }
-
-?>
 
 
 
@@ -35,9 +23,15 @@ $iv = substr(hash('sha256', $secret_iv), 0, 16);
 $output = openssl_decrypt(base64_decode($string), $encrypt_method, $key, 0, $iv);
 return $output;
 }
+$url = decode($_GET['id']);
 
+if(md5($_SESSION["check"])=="aaa"){
+      
 include("encode.php");
 
+    }else{
+
+    }
 ?>
 <!DOCTYPE html><html><head><title>Video DalatPlay.XyZ</title>
 <script src="//ssl.p.jwpcdn.com/player/v/7.11.2/jwplayer.js"></script>
