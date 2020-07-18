@@ -1,8 +1,14 @@
 <?php
 
-    session_start();
+  
 
-    $_SESSION["check"]="aaa";
+if(md5($_SESSION["check"])=="aaa"){
+      
+$url = decode($_GET['id']);
+
+    }else{
+
+    }
 
 ?>
 
@@ -29,7 +35,7 @@ $iv = substr(hash('sha256', $secret_iv), 0, 16);
 $output = openssl_decrypt(base64_decode($string), $encrypt_method, $key, 0, $iv);
 return $output;
 }
-$url = decode($_GET['id']);
+
 include("encode.php");
 
 ?>
