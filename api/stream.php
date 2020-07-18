@@ -3,7 +3,7 @@
 if(md5($_SESSION["check"])=="aaa"){
        echo $data;
     }else{
-
+echo "Error: File Does not exists";
     }
 ?>
 
