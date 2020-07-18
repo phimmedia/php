@@ -1,3 +1,13 @@
+<?php
+
+    session_start();
+
+    $_SESSION["check"]="aaa";
+
+?>
+
+
+
 
 <?php 	if (stristr($_SERVER['HTTP_REFERER'],"dalatplay.xyz") || stristr($_SERVER['HTTP_REFERER'],"dalatplay.blogspot.com")||
 stristr($_SERVER['HTTP_REFERER']," ")||
