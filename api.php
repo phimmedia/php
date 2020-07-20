@@ -7,7 +7,7 @@
 <div id="jwplayer-1492449733"></div>
 <script type="text/javascript">
 jwplayer("jwplayer-1492449733").setup({
-sources: [{file:"https://www.googleapis.com/drive/v3/files/<?=$_GET['phimmedia']?>?alt=media&key=AIzaSyCqhvPdtUX5U6sUdMD8XVMYex7NmKvbp2s",label:"360p","type":"mp4","default": "true",label:"720p","type":"mp4"}],
+sources: [{file:"<?=$_GET['id']?>",label:"360p","type":"mp4","default": "true",label:"720p","type":"mp4"}],
 skin: "prime",
 autostart: "false",
 image: "https://firebasestorage.googleapis.com/v0/b/local-8563f.appspot.com/o/Phimmedia.org.png?alt=media&token=657abc08-fe5f-46aa-8988-322fd122e6dd",
