@@ -12,6 +12,7 @@
   <head>
     <!-- Load dependent stylesheets. -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@videojs/http-streaming@1.10.3/dist/videojs-http-streaming.min.js"></script>
     <link rel="stylesheet" href="//googleads.github.io/videojs-ima/node_modules/video.js/dist/video-js.min.css" />
     <link rel="stylesheet" href="//googleads.github.io/videojs-ima/node_modules/videojs-contrib-ads/dist/videojs.ads.css" />
     <link rel="stylesheet" href="//googleads.github.io/videojs-ima/dist/videojs.ima.css" />
@@ -20,8 +21,9 @@
   <body>
     <video oncontextmenu="return false;" id="content_video" class="video-js vjs-default-skin"
         controls preload="auto" width="460" height="320" controlsList="nodownload">
-      <source src="http://s02.solidfilesusercontent.com/OWEwM2ZmZTkxOTU1OTAyZDRlM2Q1OTBjYWM5N2U3M2ViNTYzMTJlMzoxanlEd1M6OG9DMDV3UDd4Rkw5UDV1VFdzMGU3S1c1ajhr/vzQNjD4ydWyWr/lien_he_quang_cao.mp4"
-          type="video/mp4" />
+        <source
+     src="https://d2zihajmogu5jn.cloudfront.net/bipbop-advanced/bipbop_16x9_variant.m3u8"
+     type="application/x-mpegURL">
     </video>
     <!-- Load dependent scripts -->
     <script src="//googleads.github.io/videojs-ima/node_modules/video.js/dist/video.min.js"></script>
