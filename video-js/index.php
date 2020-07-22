@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Video.js Demo</title>
+  <title>Video STR</title>
   
 
 </head>
