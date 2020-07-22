@@ -30,7 +30,7 @@
   </body>
 </html>
 <!-- partial -->
-  <script  src="./script.js"></script>
+  <script  src="vast/script.js"></script>
 
 </body>
 </html>
