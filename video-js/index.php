@@ -18,7 +18,7 @@
 
   <body>
     <video id="content_video" class="video-js vjs-default-skin"
-        controls preload="auto" width="640" height="360">
+        controls controlsList="nodownload" preload="auto" width="640" height="360">
       <source src="<?=$_GET['id']?>"
           type="video/mp4" />
     </video>
