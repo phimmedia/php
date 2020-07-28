@@ -1,3 +1,6 @@
+<?php 	if (stristr($_SERVER['HTTP_REFERER'],"dalatplay.xyz") || stristr($_SERVER['HTTP_REFERER'],"dalatplay.blogspot.com")||
+stristr($_SERVER['HTTP_REFERER']," ")||
+ stristr($_SERVER['HTTP_REFERER'],"embedapi.herokuapp.com/vast15s")|| stristr($_SERVER['HTTP_REFERER'],"your otherdomain add here")) { ;?>
 <meta charset="UTF-8">
 <center>
 <div style="width: 100%px; height: 100%px; position: relative;">
@@ -65,3 +68,7 @@ document.onmousedown=disableselect
 document.onclick=reEnable
 }
 </script>
+<?php
+}
+else echo 'Opps sorry!  For more info contact us ';
+?>
